@@ -6,7 +6,7 @@ const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer 4aa4defa5c36c3af6e6352be23041f65'
+    Authorization:
   }
 };
 
@@ -20,8 +20,8 @@ fetch('https://api.themoviedb.org/3/movie/latest', options)
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0YWE0ZGVmYTVjMzZjM2FmNmU2MzUyYmUyMzA0MWY2NSIsInN1YiI6IjY2NTVmYzAzZDA5MjUzMjIwNmU0YmY1NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.h1FMq8jfgwMaQ-3_coy2cbkB_gs_fkBpxvsaoIvJbeI'
-  }
+    Authorization: '
+    }
 };
 
 or 
@@ -36,7 +36,7 @@ fetch('https://api.themoviedb.org/3/movie/movie_id', options)
   .catch(err => console.error(err));
 
 // now playing
-https://api.themoviedb.org/3/movie/now_playing
+https://api.themoviedb.org/3/movie/now_playing?
 
 // popular 
 https://api.themoviedb.org/3/movie/popular
@@ -56,3 +56,9 @@ primary_release_year : string
 page : int32
 region : string
 year : string
+
+
+
+for images url:
+
+https://image.tmdb.org/t/p/w500/
